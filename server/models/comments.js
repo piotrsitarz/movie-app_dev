@@ -10,7 +10,7 @@ const Comments = mongoose.model('Comments',{
     trim: true
   },
   vote: {
-    type: String,
+    type: Number,
     trim: true
   },
   idOfMovie: {

@@ -72,7 +72,7 @@ const Movies = mongoose.model('Movies',{
     trim: true
   },
   imdbRating: {
-    type: String,
+    type: Number,
     trim: true
   },
   imdbVotes: {
